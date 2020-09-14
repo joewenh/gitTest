@@ -10,6 +10,12 @@ object RandomNumUtil {
     random.nextInt(to - from + 1) + from
   }
 
+  /**
+   *
+   * @param from
+   * @param to
+   * @return
+   */
   def randomLong(from: Long, to: Long): Long = {
     if (from > to) throw new IllegalArgumentException(s"from = $from 应该小于 to = $to")
     random.nextLong().abs % (to - from + 1) + from
