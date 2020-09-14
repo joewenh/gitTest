@@ -37,5 +37,6 @@ object RandomNumUtil {
     println(randomMultiInt(1, 15, 10))
     println(randomMultiInt(1, 8, 10, false))
     println(randomMultiInt(1, 8, 10, false))
+    println(randomMultiInt(1, 8, 10, false))
   }
 }
